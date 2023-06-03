@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--(HW3 Answer 2)Explore the concept of Meta Information (author,description,generator,keywords) in HTML5 and use it in practice.  <meta name="application-name" content="OpenStreetMap"  Give examples of the application of these input types.-->
+     <meta charset="UTF-8">
+     <meta name="author" content="John Doe">
+     <meta name="description" content="This is a sample web page.">
+     <meta name="generator" content="OpenAI">
+     <meta name="keywords" content="HTML, CSS, JavaScript">
+     <title>My Web Page</title>
+    <meta chatset="utf-8">
+
+</head>
+    <body>
+        <!--HW2 Remember:You have an assignment to work on the contents of Images, Images Maps and Color in HTML5. Give examples of the application of these topics-->
+        <!--Images-->
+        <img src="image.jpg" alt="Description of the image">
+
+        <!--Image Maps-->
+        <img src="image.jpg" alt="Description of the image" usemap="#myMap">
+
+<map name="myMap">
+  <area shape="circle" coords="100,100,50" href="page1.html" alt="Link 1">
+  <area shape="rect" coords="200,200,300,300" href="page2.html" alt="Link 2">
+</map>
+
+<!--Color-->
+<div style="background-color: blue; color: white;">
+    This is a div with a blue background and white text.
+  </div>
+
+  <!--(HW3 Answer 1)Use all input types in HTML5. Hidden,Tel,Email,Number,Range,Search,Image,Week,Url,DateTime-Local,Month,Time-->
+  <form>
+    <label for="hiddenInput">Hidden:</label>
+    <input type="hidden" id="hiddenInput" name="hiddenInput" value="hidden value">
+    <br>
+  
+    <label for="telInput">Tel:</label>
+    <input type="tel" id="telInput" name="telInput">
+    <br>
+  
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" name="emailInput">
+    <br>
+  
+    <label for="numberInput">Number:</label>
+    <input type="number" id="numberInput" name="numberInput">
+    <br>
+  
+    <label for="rangeInput">Range:</label>
+    <input type="range" id="rangeInput" name="rangeInput">
+    <br>
+  
+    <label for="searchInput">Search:</label>
+    <input type="search" id="searchInput" name="searchInput">
+    <br>
+  
+    <label for="imageInput">Image:</label>
+    <input type="image" src="image.jpg" alt="Submit">
+    <br>
+  
+    <label for="weekInput">Week:</label>
+    <input type="week" id="weekInput" name="weekInput">
+    <br>
+  
+    <label for="urlInput">URL:</label>
+    <input type="url" id="urlInput" name="urlInput">
+    <br>
+  
+    <label for="datetimeLocalInput">DateTime-Local:</label>
+    <input type="datetime-local" id="datetimeLocalInput" name="datetimeLocalInput">
+    <br>
+  
+    <label for="monthInput">Month:</label>
+    <input type="month" id="monthInput" name="monthInput">
+    <br>
+  
+    <label for="timeInput">Time:</label>
+    <input type="time" id="timeInput" name="timeInput">
+    <br>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+ </body>
+</html>

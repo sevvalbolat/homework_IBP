@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!--(Answer 1)Link to another site-->
+        <a href="https://academy.oracle.com/en/oa-web-overview.html">Visit Oracle Academy</a><br>
+
+        <!--Link to an anchor on the same page-->
+        <a href="#https://obs.karabuk.edu.tr/oibs/ogrenci/login.aspx">Go to Obs Kbu</a><br>
+
+<h2 id="Homework">Homework</h2>
+<p>This is the content of Homework</p>
+
+<!--Link to a page on the same site-->
+<a href="https://1milyonistihdam.hmb.gov.tr/">Go to 1milyonistihdam</a><br>
+
+<!--(Answer 2)Link that dials a number-->
+<a href="tel:+0123456789">Call Us</a><br>
+
+<!--Link that runs JavaScript-->
+<a href="javascript:myFunction();">Run JavaScript</a><br>
+
+<!--Link that runs email client-->
+<a href="mailto:example@example.com">Send Email</a><br>
+
+<!--(Answer 3) Open the link in a new tab/window-->
+<a href="https://gelecegiyazanlar.turkcell.com.tr/anasayfa" target="_blank">Visit gelecegiyazanlar</a>
+
+
+    </body>
+</html>
